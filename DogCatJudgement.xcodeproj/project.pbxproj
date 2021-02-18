@@ -49,6 +49,7 @@
 		96AAE76325DEF5A200B82E63 /* DogCatJudgementUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DogCatJudgementUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96AAE76725DEF5A200B82E63 /* DogCatJudgementUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogCatJudgementUITests.swift; sourceTree = "<group>"; };
 		96AAE76925DEF5A200B82E63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96AAE77825DEF5EA00B82E63 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +80,7 @@
 		96AAE73925DEF5A100B82E63 = {
 			isa = PBXGroup;
 			children = (
+				96AAE77825DEF5EA00B82E63 /* README.md */,
 				96AAE74425DEF5A100B82E63 /* DogCatJudgement */,
 				96AAE75B25DEF5A200B82E63 /* DogCatJudgementTests */,
 				96AAE76625DEF5A200B82E63 /* DogCatJudgementUITests */,

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		964EDC2E25DF03E4000CB50F /* DogCatJudgementMachine.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 964EDC2D25DF03E4000CB50F /* DogCatJudgementMachine.mlmodel */; };
 		96AAE74625DEF5A100B82E63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96AAE74525DEF5A100B82E63 /* AppDelegate.swift */; };
 		96AAE74825DEF5A100B82E63 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96AAE74725DEF5A100B82E63 /* SceneDelegate.swift */; };
 		96AAE74A25DEF5A100B82E63 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96AAE74925DEF5A100B82E63 /* ViewController.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		964EDC2D25DF03E4000CB50F /* DogCatJudgementMachine.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = DogCatJudgementMachine.mlmodel; sourceTree = "<group>"; };
 		96AAE74225DEF5A100B82E63 /* DogCatJudgement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DogCatJudgement.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96AAE74525DEF5A100B82E63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96AAE74725DEF5A100B82E63 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 		96AAE74425DEF5A100B82E63 /* DogCatJudgement */ = {
 			isa = PBXGroup;
 			children = (
+				964EDC2D25DF03E4000CB50F /* DogCatJudgementMachine.mlmodel */,
 				96AAE74525DEF5A100B82E63 /* AppDelegate.swift */,
 				96AAE74725DEF5A100B82E63 /* SceneDelegate.swift */,
 				96AAE74925DEF5A100B82E63 /* ViewController.swift */,
@@ -260,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				964EDC2E25DF03E4000CB50F /* DogCatJudgementMachine.mlmodel in Sources */,
 				96AAE74A25DEF5A100B82E63 /* ViewController.swift in Sources */,
 				96AAE74625DEF5A100B82E63 /* AppDelegate.swift in Sources */,
 				96AAE74825DEF5A100B82E63 /* SceneDelegate.swift in Sources */,
@@ -441,6 +445,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9YN493UFZE;
 				INFOPLIST_FILE = DogCatJudgement/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -460,6 +465,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9YN493UFZE;
 				INFOPLIST_FILE = DogCatJudgement/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
